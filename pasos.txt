@@ -1,0 +1,7 @@
+1. Clonar repositorio github
+2. mkdocs new .
+3. crear ficheros .md en la carpeta docs
+4. Introducir la estructura de ficheros en mkdocs.yml
+5. git add *
+6. git commit -m "algo"
+7. git push origin master
