@@ -1,6 +1,6 @@
 site_name: My Docs
 pages:
 - Home: index.md
-- Grib_to_df: grig_to_df.md
+- Grib_to_df: grib_to_df.md
 theme: readthedocs
 
