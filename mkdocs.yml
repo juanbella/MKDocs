@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: MKDocs
 pages:
 - Home: index.md
 - Grib_to_df: grib_to_df.md
