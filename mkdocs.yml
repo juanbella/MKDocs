@@ -1,5 +1,6 @@
 site_name: My Docs
 pages:
 - Home: index.md
+- Pygrib_to_df: pygrig_to_df.md
 theme: readthedocs
 
