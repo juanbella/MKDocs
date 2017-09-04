@@ -1,0 +1,54 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Documentaci\u00f3n\n\n\npygrib y netcdf\n\n\nJuan Bella\n\n\n\n\npygrib_to_df\n\n\nnetcdf_to_df\n\n\n\n\npygrib_to_df\n\n\nObtiene los datos de un fichero grib y los intriduce en un dataframe. M\u00e1s informaci\u00f3n en \ngrib_to_df.md\n\n\nnetcdf_to_df\n\n\nObtiene los datos de un fichero netcdf y los intriduce en un dataframe",
+            "title": "Home"
+        },
+        {
+            "location": "/#documentacion",
+            "text": "pygrib y netcdf  Juan Bella   pygrib_to_df  netcdf_to_df",
+            "title": "Documentaci\u00f3n"
+        },
+        {
+            "location": "/#pygrib95to95df",
+            "text": "Obtiene los datos de un fichero grib y los intriduce en un dataframe. M\u00e1s informaci\u00f3n en  grib_to_df.md",
+            "title": "pygrib_to_df"
+        },
+        {
+            "location": "/#netcdf95to95df",
+            "text": "Obtiene los datos de un fichero netcdf y los intriduce en un dataframe",
+            "title": "netcdf_to_df"
+        },
+        {
+            "location": "/grib_to_df/",
+            "text": "Documentaci\u00f3n de grib_to_df.py\n\n\nDescripci\u00f3n\n\n\nCrea un Dataframe a partir de los datos contenidos en un fichero Grib\n\n\nM\u00e9todos\n\n\ngrib_to_df(forcasted_day)\n\n\nPar\u00e1metros de entrada\n\n\n\n\nforcasted_day: n\u00famero de d\u00edas adicionales que a\u00f1adir al dataframe.",
+            "title": "Grib_to_df"
+        },
+        {
+            "location": "/grib_to_df/#documentacion-de-grib_to_dfpy",
+            "text": "",
+            "title": "Documentaci\u00f3n de grib_to_df.py"
+        },
+        {
+            "location": "/grib_to_df/#descripcion",
+            "text": "Crea un Dataframe a partir de los datos contenidos en un fichero Grib",
+            "title": "Descripci\u00f3n"
+        },
+        {
+            "location": "/grib_to_df/#metodos",
+            "text": "",
+            "title": "M\u00e9todos"
+        },
+        {
+            "location": "/grib_to_df/#grib_to_dfforcasted_day",
+            "text": "",
+            "title": "grib_to_df(forcasted_day)"
+        },
+        {
+            "location": "/grib_to_df/#parametros-de-entrada",
+            "text": "forcasted_day: n\u00famero de d\u00edas adicionales que a\u00f1adir al dataframe.",
+            "title": "Par\u00e1metros de entrada"
+        }
+    ]
+}

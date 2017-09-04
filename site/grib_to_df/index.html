@@ -10,20 +10,20 @@
       
       
       
-        <link rel="shortcut icon" href="./assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
       
       <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.10.0">
     
     
       
-        <title>MKDocs</title>
+        <title>Grib_to_df - MKDocs</title>
       
     
     
-      <script src="./assets/javascripts/modernizr-e826f8942a.js"></script>
+      <script src="../assets/javascripts/modernizr-e826f8942a.js"></script>
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application-b6a6d08807.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application-b6a6d08807.css">
       
     
     
@@ -59,7 +59,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="MKDocs" class="md-header-nav__button md-logo">
+        <a href=".." title="MKDocs" class="md-header-nav__button md-logo">
           
             <i class="md-icon md-icon--home"></i>
           
@@ -74,7 +74,7 @@
             
               
             
-            Home
+            Grib_to_df
           
         </span>
       </div>
@@ -135,6 +135,18 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -146,11 +158,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        Home
+        Grib_to_df
       </label>
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
+    <a href="./" title="Grib_to_df" class="md-nav__link md-nav__link--active">
+      Grib_to_df
     </a>
     
       
@@ -164,16 +176,48 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pygrib95to95df" title="pygrib_to_df" class="md-nav__link">
-    pygrib_to_df
+  <a href="#descripcion" title="Descripción" class="md-nav__link">
+    Descripción
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodos" title="Métodos" class="md-nav__link">
+    Métodos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grib_to_dfforcasted_day" title="grib_to_df(forcasted_day)" class="md-nav__link">
+    grib_to_df(forcasted_day)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametros-de-entrada" title="Parámetros de entrada" class="md-nav__link">
+    Parámetros de entrada
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#netcdf95to95df" title="netcdf_to_df" class="md-nav__link">
-    netcdf_to_df
-  </a>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -183,18 +227,6 @@
   
 </nav>
     
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="grib_to_df/" title="Grib_to_df" class="md-nav__link">
-      Grib_to_df
-    </a>
   </li>
 
     
@@ -219,16 +251,48 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pygrib95to95df" title="pygrib_to_df" class="md-nav__link">
-    pygrib_to_df
+  <a href="#descripcion" title="Descripción" class="md-nav__link">
+    Descripción
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodos" title="Métodos" class="md-nav__link">
+    Métodos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grib_to_dfforcasted_day" title="grib_to_df(forcasted_day)" class="md-nav__link">
+    grib_to_df(forcasted_day)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametros-de-entrada" title="Parámetros de entrada" class="md-nav__link">
+    Parámetros de entrada
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#netcdf95to95df" title="netcdf_to_df" class="md-nav__link">
-    netcdf_to_df
-  </a>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -247,17 +311,15 @@
               
                 
                 
-                <h1 id="documentacion">Documentación</h1>
-<p><strong>pygrib y netcdf</strong>
-<strong>Juan Bella</strong></p>
+                <h1 id="documentacion-de-grib_to_dfpy">Documentación de grib_to_df.py</h1>
+<h2 id="descripcion">Descripción</h2>
+<p>Crea un Dataframe a partir de los datos contenidos en un fichero Grib</p>
+<h3 id="metodos">Métodos</h3>
+<h4 id="grib_to_dfforcasted_day">grib_to_df(forcasted_day)</h4>
+<h5 id="parametros-de-entrada">Parámetros de entrada</h5>
 <ol>
-<li>pygrib_to_df</li>
-<li>netcdf_to_df</li>
+<li>forcasted_day: número de días adicionales que añadir al dataframe.</li>
 </ol>
-<h2 id="pygrib95to95df">pygrib_to_df</h2>
-<p>Obtiene los datos de un fichero grib y los intriduce en un dataframe. Más información en <a href="grib_to_df/">grib_to_df.md</a></p>
-<h2 id="netcdf95to95df">netcdf_to_df</h2>
-<p>Obtiene los datos de un fichero netcdf y los intriduce en un dataframe</p>
                 
                   
                 
@@ -276,20 +338,20 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-        
-          <a href="grib_to_df/" title="Grib_to_df" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  Previous
                 </span>
-                Grib_to_df
+                Home
               </span>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
           </a>
+        
         
       </nav>
     </div>
@@ -313,10 +375,10 @@
       
     </div>
     
-      <script src="./assets/javascripts/application-f3ab9e5ff8.js"></script>
+      <script src="../assets/javascripts/application-f3ab9e5ff8.js"></script>
       
       
-      <script>app.initialize({url:{base:"."}})</script>
+      <script>app.initialize({url:{base:".."}})</script>
       
     
     
