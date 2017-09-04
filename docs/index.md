@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Documentación
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+**pygrib y netcdf**
+**Juan Bella**
 
-## Commands
+1. pygrib\_to\_df
+2. netcdf\_to\_df
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## pygrib\_to\_df
+Obtiene los datos de un fichero grib y los intriduce en un dataframe
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## netcdf\_to\_df
+Obtiene los datos de un fichero netcdf y los intriduce en un dataframe
